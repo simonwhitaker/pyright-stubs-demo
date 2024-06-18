@@ -3,6 +3,7 @@
 import os
 import sys
 
+from django.utils.deprecation import RemovedInDjango51Warning
 
 def main():
     """Run administrative tasks."""
